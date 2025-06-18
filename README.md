@@ -1,41 +1,29 @@
-🦠 COVID-19 Data Analytics Project
-This project is a data science and analytics initiative aimed at understanding the global impact of the COVID-19 pandemic using real-world data. The project focuses on exploring and analyzing a COVID-19 dataset through data cleaning, transformation, and visual insights.
+# IPL Match Data Analysis
 
-📁 Repository Contents
-covid_19_dataset.csv — The raw dataset containing country-wise and date-wise COVID-19 statistics such as confirmed cases, deaths, and recoveries.
+This project involves a detailed analysis of Indian Premier League (IPL) match data. The aim is to explore, clean, and derive meaningful insights from the raw data using Python and its data science libraries.
 
-Covid_19.ipynb — A Jupyter Notebook showcasing the entire data analysis workflow: data preprocessing, exploratory data analysis (EDA), and visualizations.
+## 📁 Project Structure
 
-📊 Project Objectives
-Understand trends in confirmed cases, deaths, and recoveries over time.
+- `matches.csv`: This is the **raw dataset** containing IPL match-level data. It includes match dates, teams, venues, outcomes, and more.
+- `IPL.ipynb`: This is the **TNV (Python Copy) Jupyter Notebook** that includes all the data preprocessing, analysis, and visualization. The notebook walks through each step of the data pipeline including loading, cleaning, exploration, and summary insights.
 
-Perform data cleaning and transformation to prepare the data for analysis.
+## 🔍 Objectives
 
-Create visualizations to reveal patterns, peaks, and country-specific comparisons.
+- Understand key trends and patterns in IPL match outcomes.
+- Identify winning patterns of teams and performance trends over the years.
+- Perform basic statistical analysis and visual exploration.
+- Build a clean and reproducible data analysis pipeline in Python.
 
-Provide analytical insights into how different countries were impacted.
+## 🧰 Technologies Used
 
-🔍 Key Features
-📅 Time-Series Analysis: Daily trends of COVID-19 spread.
+- **Python 3**
+- **Pandas** – Data manipulation
+- **Matplotlib & Seaborn** – Data visualization
+- **Jupyter Notebook** – Interactive analysis
 
-🌍 Country-wise Breakdown: Comparison of impact across countries.
+## 📈 Key Highlights
 
-📈 Visual Insights: Use of matplotlib/seaborn for graphs and charts.
-
-🔧 Data Preprocessing: Null handling, grouping, filtering, and date parsing.
-
-📦 Tools & Libraries Used
-Python (Pandas, NumPy)
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
-
-💡 Insights
-Some insights discovered during the analysis include:
-
-Peak infection dates in major countries
-
-Death-to-case ratios across continents
-
-Recovery trends over time
+- Visual breakdown of team performance.
+- Analysis of toss decisions vs match outcomes.
+- Venue-wise performance and winning statistics.
+- Seasonal comparison of matches and team statistics.
